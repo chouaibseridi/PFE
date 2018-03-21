@@ -1,0 +1,68 @@
+@font-face {
+    font-family: advent pro;
+    src: url(font/AdventPro-Bold.ttf);
+
+}
+@font-face
+{
+	font-family:gothic;
+	src: url(../font/GOTHIC.ttf);
+}
+
+#rech, #dated, #datea,#book
+{display:inline-block;
+margin:10px;
+}
+
+#engine_bar
+{
+position:absolute;
+top:512px;
+left:490px;
+border-radius:25px 25px 0px 0px;
+background-color:black;
+border:none;
+width:370px;
+padding-left:12px;
+font-family:gothic;
+color:white;
+font-weight:bold;
+z-index:9000;
+opacity:0.7;}
+
+
+#engine_bar:hover
+{opacity:1;}
+
+#rech1 
+{height:30px;
+background-color:#e6eff5;
+border:none;
+color:#9dcdee;
+}
+
+#rech2, #rech3
+{height:30px;
+width:130px;
+background-color:#e6eff5;
+margin-top:7px;
+border:none;
+color:gray;}
+
+#rech4
+{width:100px;
+height:31px;
+background-color:#257ab3;
+color:white;
+font-family:gothic;
+font-weight:bold;
+font-size:18px;
+border:none;
+position:relative;
+top:-2px;
+background-image:url(../images/f.jpg);
+}
+#rech4:hover
+{
+background-image:url('../images/f_h.jpg');
+}

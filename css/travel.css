@@ -1,0 +1,124 @@
+body
+{
+background-color: #f4f5e2;
+background-image:url("../images/fond.png");
+}
+#img
+{
+height:180px;
+width:250px;
+}
+#dest
+{font-family:calibri;
+font-weight:bold;
+margin-bottom:-10px;
+padding-left:10px;
+}
+#dated
+{font-family:calibri;
+font-weight:bold;
+margin-bottom:-10px;
+margin-left:10px;
+}
+#dater
+{font-family:calibri;
+font-weight:bold;
+margin-bottom:-10px;
+margin-left:10px;
+}
+#price
+{
+margin-left:63px;
+font-family:calibri;
+font-weight:bold;
+color:#e20625;
+}
+#price,#dest
+{
+display:inline-block;
+margin-bottom:-30px;
+}
+#dater ,#book
+{display:inline-block;}
+#book
+{margin-left:50px;}
+#offre1,#offre2,#offre3,#offre4,#offre5,#offre6,#offre7,#offre8,#offre9,#offre10,#offre11,#offre12
+{
+padding-bottom:10px;
+background-color:white;
+display:inline-block;
+margin:20px;
+}
+#offre1:hover, #offre2:hover,#offre3:hover,#offre4:hover,#offre5:hover,#offre6:hover,#offre7:hover,#offre8:hover,#offre9:hover
+,#offre10:hover,#offre11:hover,#offre12:hover
+{box-shadow: 0px 5px 10px gray;}
+
+#offres
+{margin-left:16.5%;
+margin-top:300px;
+width:920px;
+padding-left:20px;
+
+}
+
+#trait 
+{width:900px;
+height:3px;
+background-color:black;
+margin-left:17%;
+margin-top:50px;
+}
+
+#hotel1,#hotel2,#hotel3,#hotel4,#hotel5,#hotel6
+{
+padding-bottom:10px;
+background-color:white;
+display:inline-block;
+margin:20px;
+}
+#hotel1:hover, #hotel2:hover,#hotel3:hover,#hotel4:hover,#hotel5:hover,#hotel6:hover
+{box-shadow: 0px 5px 10px gray;}
+
+#hotels
+{margin-left:16.5%;
+margin-top:100px;
+width:920px;
+padding-left:20px;
+
+}
+#img2
+{
+height:180px;
+width:250px;
+}
+#book2
+{margin-left:104px;}
+#s2title2
+{
+margin-top:-20px;
+color:#556080;
+padding-top:50px;
+font-family:advent pro;
+Font-size:40px;
+text-align:center;
+text-decoration:underlin;
+}
+
+#bookbutton
+{
+background-image:url('../images/travel/book.jpg');
+     border: none;
+     cursor: pointer; 
+     width:100px;
+	 height:31px;
+	 float:right;
+}
+#bookbutton:hover
+{
+background-image:url('../images/travel/book_h.jpg');
+     border: none;
+     cursor: pointer; 
+     width:100px;
+	 height:31px;
+	 float:right;
+}

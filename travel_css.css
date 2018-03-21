@@ -1,0 +1,50 @@
+@font-face {
+    font-family: advent pro;
+    src: url(font/AdventPro-Bold.ttf);
+
+}
+@font-face
+{
+	font-family:gothic;
+	src: url(font/GOTHIC.ttf);
+}
+
+#rech, #dated, #datea,#book
+{display:inline-block;
+margin:10px;
+}
+#engine_bar
+{
+border-radius:25px 0px 0px;
+background-color:#d1d9df;
+border:none;
+width:630px;
+padding-left:3px;
+font-family:gothic;
+color:white;
+font-weight:bold;}
+
+#rech1 
+{height:30px;
+background-color:#e6eff5;
+border:none;
+color:#9dcdee;
+}
+#rech4
+{width:100px;
+height:31px;
+background-color:#257ab3;
+color:white;
+font-family:gothic;
+font-weight:bold;
+font-size:18px;
+border:none;
+position:relative;
+top:2px;
+}
+#rech2, #rech3
+{height:30px;
+width:130px;
+background-color:#e6eff5;
+border:none;
+color:#9dcdee;}
